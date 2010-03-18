@@ -1,0 +1,35 @@
+use_spacer              left
+update_interval         0.8
+out_to_console          yes
+pad_percents            3
+
+TEXT
+^tw()
+^fg(\#daff30)[^p(+3)^fg(\#daff30)fs
+^p(+3)^fg(\#daff30)]
+
+^p(+5)^fg(\#909090)/            f:^p(+5)^fg(\#48578c)${fs_free /}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_free_perc /}^fg(\#909090)%)
+^p(+10)^fg(\#909090)u:^p(+5)^fg(\#8c5669)${fs_used /}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_used_perc /}^fg(\#909090)%)
+^p(+5)^fg(\#909090)/boot        f:^p(+5)^fg(\#48578c)${fs_free /boot}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_free_perc /boot}^fg(\#909090)%)
+^p(+10)^fg(\#909090)u:^p(+5)^fg(\#8c5669)${fs_used /boot}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_used_perc /boot}^fg(\#909090)%)
+^p(+5)^fg(\#909090)/usr         f:^p(+5)^fg(\#48578c)${fs_free /usr}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_free_perc /usr}^fg(\#909090)%)
+^p(+10)^fg(\#909090)u:^p(+5)^fg(\#8c5669)${fs_used /usr}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_used_perc /usr}^fg(\#909090)%)
+^p(+5)^fg(\#909090)/var         f:^p(+5)^fg(\#48578c)${fs_free /var}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_free_perc /var}^fg(\#909090)%)
+^p(+10)^fg(\#909090)u:^p(+5)^fg(\#8c5669)${fs_used /var}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_used_perc /var}^fg(\#909090)%)
+^p(+5)^fg(\#909090)/tmp         f:^p(+5)^fg(\#48578c)${fs_free /tmp}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_free_perc /tmp}^fg(\#909090)%)
+^p(+10)^fg(\#909090)u:^p(+5)^fg(\#8c5669)${fs_used /tmp}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_used_perc /tmp}^fg(\#909090)%)
+^p(+5)^fg(\#909090)/home        f:^p(+5)^fg(\#48578c)${fs_free /home}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_free_perc /home}^fg(\#909090)%)
+^p(+10)^fg(\#909090)u:^p(+5)^fg(\#8c5669)${fs_used /home}
+^p(+5)^fg(\#909090)(^fg(\#4b7e45)${fs_used_perc /home}^fg(\#909090)%)
+

@@ -1,0 +1,114 @@
+Xft*antialiasing:true
+Xft*hinting:full
+
+xterm*scrollBar:false
+xterm*background:black
+xterm*foreground:white
+
+urxvt*scrollBar:false
+#urxvt*transparent:true
+urxvt*foreground:white
+urxvt*borderwith:0
+urxvt*shading:30
+
+URxvt.tabbed.tabbar-fg: 1
+URxvt.tabbed.tabbar-bg: 8
+URxvt.tabbed.tab-fg:    10
+URxvt.tabbed.tab-bg:    8
+
+URxvt.urgentOnBell:  true
+
+
+RootTerm.geometry: 200x32
+
+
+*background:       #222222
+*foreground:       #cacaca
+
+#*color0:     rgb:00/00/00
+#*color1:     rgb:d3/62/65
+#*color2:     rgb:ae/ce/91
+#*color3:     rgb:e7/e1/8c
+#*color4:     rgb:7a/7a/b0
+#*color5:     rgb:96/3c/59
+#*color6:     rgb:41/81/79
+#*color7:     rgb:be/be/be
+#*color8:     rgb:66/66/66
+#*color9:     rgb:ef/81/71
+#*color10:    rgb:e5/f7/79
+#*color11:    rgb:ff/f7/96
+#*color12:    rgb:41/86/be
+#*color13:    rgb:ef/9e/be
+#*color14:    rgb:71/be/be
+#*color15:    rgb:ff/ff/ff
+
+!black
+*color0:           #080808
+*color8:           #505050
+!red
+*color1:           #b04020
+*color9:           #dd4010
+!green
+*color2:           #afd700
+*color10:          #daff30
+!yellow
+*color3:           #f7cf0a
+*color11:          #fce70d
+!blue
+*color4:           #92c1c9
+*color12:          #6099dd
+!magenta
+*color5:           #d6156c
+*color13:          #fe4365
+!cyan
+*color6:           #a0c2de
+*color14:          #c9dee8
+!white
+*color7:           #808080
+*color15:          #b0b0b0
+
+#!black
+#*color0:           #080808
+#*color8:           #505050
+#!red
+#*color1:           #b04020
+#*color9:           #dd4010
+#!green
+#*color2:           #afd700
+#*color10:          #daff30
+#!yellow
+#*color3:           #f7cf0a
+#*color11:          #fce70d
+#!blue
+#*color4:           #3060aa
+#*color12:          #6099dd
+#!magenta
+#*color5:           #d6156c
+#*color13:          #fe4365
+#!cyan
+#*color6:           #a0c2de
+#*color14:          #c9dee8
+#!white
+#*color7:           #808080
+#*color15:          #b0b0b0
+
+#some white shit
+!Colors
+#*foreground: #696969
+#*background: #fffef6
+#*color0: #363636
+#*color8: #424242
+#*color1: #C37561
+#*color9:  #D19485
+#*color2: #A0A57E
+#*color10: #7f8264
+#*color3: #b58b62
+#*color11: #DEBC9C
+#*color4: #1d2b41
+#*color12: #98A1B9
+#*color5: #AB716D
+#*color13: #b4d2c8
+#*color6: #98B9B1
+#*color14: #769293
+#*color7: #9ba0a7
+#*color15: #6e7383

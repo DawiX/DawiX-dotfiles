@@ -1,0 +1,11 @@
+background no
+out_to_console yes
+update_interval 2
+total_run_times 0
+use_spacer none
+
+mpd_host archeee
+mpd_port 6600
+
+TEXT
+${exec /home/david/.bin/wireless.sh} || ${cpu cpu1}% || ${exec /home/david/.bin/battery.sh} || ${acpitemp}c || $memperc% :: ${time %D %H:%M}
