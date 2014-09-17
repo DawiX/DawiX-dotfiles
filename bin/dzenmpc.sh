@@ -8,9 +8,9 @@
 FN='-artwiz-snap-*-*-*-*-8-*-*-*-*-*-*-*'
 BG='#222222'
 FG='#daff30'
-W=950
-X=150
-Y=1036
+W=400
+X=0
+Y=900
 GH=7
 GW=50
 GFG='#daff30'
@@ -32,4 +32,4 @@ while true; do
   echo "`mpc | sed -n '1p'`" | tr '\n' ' '
   echo "$POSM" | gdbar -h $GH -w $GW -fg $GFG -bg $GBG
   sleep 1;
-done | dzen2 -ta l -tw $W -x $X -y $Y -fg $FG -bg $BG -fn $FN -e "button4=exec:$RW;button5=exec:$FW;button1=exec:$PREVS;button3=exec:$NEXTS;button2=exec:$TOGGS"
+done | dzen2 -ta l -tw $W -x $X -y $Y -fg $FG -bg $BG -fn $FN -e "button4=exec:$RW;button5=exec:$FW;button1=exec:$PREVS;button3=exec:$NEXTS;button2=exit"
